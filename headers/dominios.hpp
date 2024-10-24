@@ -1,16 +1,19 @@
 #ifndef DOMINIOS_HPP_INCLUDED
 #define DOMINIOS_HPP_INCLUDED
-class Nome{
+#include <string>
+
+class Nome {
     private:
-        char nome;
-        bool validar(char);
+        std::string nome;
+        bool validar(const std::string& nome);
+
     public:
-        bool setNome(char);
-        char getNome()const;
+        bool setNome(const std::string& nome);
+        std::string getNome() const;
 };
 
-inline char Nome::getNome()const{
+// Implementação do método getNome
+inline std::string Nome::getNome() const {
     return nome;
 }
-
 #endif DOMINIOS_HPP_INCLUDED
