@@ -1,5 +1,13 @@
 #include <iostream>
-#include "dominios.hpp"
+#include "Avaliacao.cpp"
+#include "Codigo.cpp"
+#include "Data.cpp"
+#include "Dinheiro.cpp"
+#include "Duracao.cpp"
+#include "Horario.cpp"
+#include "Nome.cpp"
+#include "Senha.cpp"
+
 using namespace std;
 
 int main() {
@@ -24,6 +32,9 @@ int main() {
 
     return 0;
 }
+
+
+
 
 
 
